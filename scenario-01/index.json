@@ -24,6 +24,18 @@
           "text": "steps/03/text.md",
           "background": "steps/03/background.sh",
           "verify": "steps/03/verify.sh"
+        },
+        {
+          "title": "Check the networking",
+          "text": "steps/04/text.md",
+          "background": "steps/04/background.sh",
+          "verify": "steps/04/verify.sh"
+        },
+        {
+          "title": "Scale the deployment",
+          "text": "steps/05/text.md",
+          "background": "steps/05/background.sh",
+          "verify": "steps/05/verify.sh"
         }
       ],
       "finish": {
