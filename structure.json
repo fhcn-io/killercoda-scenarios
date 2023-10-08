@@ -6,6 +6,11 @@
       "path": "scenario-01",
       "title": "Work with Deployments",
       "description": "Deploy an application with Kubernetes"
+    },
+    {
+      "path": "scenario-02",
+      "title": "Node Maintenance",
+      "description": "Backup etcd and maage nodes"
     }
   ]
 }

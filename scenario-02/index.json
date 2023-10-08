@@ -1,0 +1,49 @@
+{
+    "title": "Node Maintenance",
+    "description": "Learn how most common node maintenance tasks are performed in Kubernetes",
+    "details": {
+      "intro": {
+        "title": "Introduction",
+        "text": "intro/text.md"
+      },
+      "steps": [
+        {
+          "title": "Explore the etcd setup",
+          "text": "steps/01/text.md",
+          "background": "steps/01/background.sh",
+          "verify": "steps/01/verify.sh"
+        },
+        {
+          "title": "Work with yaml files",
+          "text": "steps/02/text.md",
+          "background": "steps/02/background.sh",
+          "verify": "steps/02/verify.sh"
+        },
+        {
+          "title": "Expose the deployment",
+          "text": "steps/03/text.md",
+          "background": "steps/03/background.sh",
+          "verify": "steps/03/verify.sh"
+        },
+        {
+          "title": "Check the networking",
+          "text": "steps/04/text.md",
+          "background": "steps/04/background.sh",
+          "verify": "steps/04/verify.sh"
+        },
+        {
+          "title": "Scale the deployment",
+          "text": "steps/05/text.md",
+          "background": "steps/05/background.sh",
+          "verify": "steps/05/verify.sh"
+        }
+      ],
+      "finish": {
+        "title": "Finish",
+        "text": "finish/text.md"
+      }
+    },
+    "backend": {
+      "imageid": "kubernetes-kubeadm-2nodes"
+    }
+}
