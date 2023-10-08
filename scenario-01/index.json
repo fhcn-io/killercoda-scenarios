@@ -8,13 +8,13 @@
       },
       "steps": [
         {
-          "title": "Create a deployment",
+          "title": "Create and explore a deployment",
           "text": "steps/01/text.md",
           "background": "steps/01/background.sh",
           "verify": "steps/01/verify.sh"
         },
         {
-          "title": "Describe deployment",
+          "title": "Work with yaml files",
           "text": "steps/02/text.md",
           "background": "steps/02/background.sh",
           "verify": "steps/02/verify.sh"

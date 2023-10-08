@@ -4,7 +4,7 @@
   "items": [
     {
       "path": "scenario-01",
-      "title": "Deploy an Application",
+      "title": "Work with Deployments",
       "description": "Deploy an application with Kubernetes"
     }
   ]
