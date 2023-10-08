@@ -1,1 +1,3 @@
-kubectl create namespace fhcn
+#!/bin/bash
+
+echo "works!"

@@ -1,8 +1,7 @@
 <br>
 
 ## Step 02
-The script in background was 
-
+Describe the deployment named `nginx`.
 ```
-kubectl create namespace fhcn
+kubectl describe deployment nginx
 ```

@@ -1,16 +1,20 @@
 {
-    "title": "Scenario 01",
-    "description": "This is the description of scenario ONE",
+    "title": "Deploy an Application",
+    "description": "One of the most basic tasks that you will need to perform is to deploy an application. In this lab, you will deploy a simple web application to your cluster.",
     "details": {
+      "intro": {
+        "title": "Introduction",
+        "text": "intro/text.md"
+      },
       "steps": [
         {
-          "title": "Create a etcd backup",
+          "title": "Create a deployment",
           "text": "steps/01/text.md",
           "background": "steps/01/background.sh",
           "verify": "steps/01/verify.sh"
         },
         {
-          "title": "Restoring etcd",
+          "title": "Describe deployment",
           "text": "steps/02/text.md",
           "background": "steps/02/background.sh",
           "verify": "steps/02/verify.sh"

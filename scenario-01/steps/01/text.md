@@ -1,8 +1,7 @@
 <br>
 
 ## Step 01
-The script in background was 
-
+Create a new deployment named `nginx` with the image `nginx`.
 ```
-kubectl create namespace fhcn
+kubectl create deployment nginx --image=nginx
 ```

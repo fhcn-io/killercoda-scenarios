@@ -1,5 +1,11 @@
 {
-    "items": [
-      { "path": "scenario-01", "title":"Kubernetes Challenge" }
-    ]
-  }
+  "titles": "CKA Scenarios",
+  "descriptions": "Thi is a set of scenarios to help you prepare for the CKA exam.",
+  "items": [
+    {
+      "path": "scenario-01",
+      "title": "Deploy an Application",
+      "description": "Deploy an application with Kubernetes"
+    }
+  ]
+}
