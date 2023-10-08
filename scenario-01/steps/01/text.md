@@ -1,8 +1,8 @@
 <br>
 
-Create a new deployment named `nginx` with the image `nginx`.
+Create a new deployment named `nginx` with the image `nginxdemos/hello:plain-text`.
 ```
-kubectl create deployment nginx --image=nginx
+kubectl create deployment nginx --image=nginxdemos/hello:plain-text
 ```
 
 Check the deployment
