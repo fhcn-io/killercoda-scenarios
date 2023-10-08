@@ -16,6 +16,9 @@ etcdctl -h
 ls /etc/kubernetes/pki/etcd/
 exit
 ```
+
+Check the etcd health
+```
 kubectl -n kube-system exec -it etcd-controlplane -- sh \
 -c "ETCDCTL_API=3 \
 ETCDCTL_CACERT=/etc/kubernetes/pki/etcd/ca.crt \
