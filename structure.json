@@ -1,6 +1,6 @@
 {
-  "titles": "CKA Scenarios",
-  "descriptions": "Thi is a set of scenarios to help you prepare for the CKA exam.",
+  "title": "CKA Scenarios",
+  "description": "Thi is a set of scenarios to help you prepare for the CKA exam.",
   "items": [
     {
       "path": "scenario-01",
