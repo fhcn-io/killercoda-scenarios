@@ -5,3 +5,4 @@ This is a compilation of [killercoda.com](https://killercoda.com/) scenarios to 
 ## Scenarios
 
 - [Kubernetes Basics](01-basics/README.md)
+- [Kubernetes Pods](02-pods/README.md)

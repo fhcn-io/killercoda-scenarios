@@ -1,0 +1,49 @@
+{
+    "title": "Deploy an Application",
+    "description": "One of the most basic tasks that you will need to perform is to deploy an application. In this lab, you will deploy a simple web application to your cluster.",
+    "details": {
+      "intro": {
+        "title": "Introduction",
+        "text": "README.md"
+      },
+      "steps": [
+        {
+          "title": "Working with Pods",
+          "text": "steps/01-pod/README.md",
+          "background": "steps/01-pod/background.sh",
+          "verify": "steps/01-pod/verify.sh"
+        },
+        {
+          "title": "Yet Another Markup Language",
+          "text": "steps/02-yaml/README.md",
+          "background": "steps/02-yaml/background.sh",
+          "verify": "steps/02-yaml/verify.sh"
+        },
+        {
+          "title": "Expose it",
+          "text": "steps/03-expose/README.md",
+          "background": "steps/03-expose/background.sh",
+          "verify": "steps/03-expose/verify.sh"
+        },
+        {
+          "title": "Working with networking",
+          "text": "steps/04-networking/README.md",
+          "background": "steps/04-networking/background.sh",
+          "verify": "steps/04-networking/verify.sh"
+        },
+        {
+          "title": "Scale it up",
+          "text": "steps/05-throubleshooting/README.md",
+          "background": "steps/05-throubleshooting/background.sh",
+          "verify": "steps/05-throubleshooting/verify.sh"
+        }
+      ],
+      "finish": {
+        "title": "Finish",
+        "text": "FINISH.md"
+      }
+    },
+    "backend": {
+      "imageid": "kubernetes-kubeadm-1node"
+    }
+}

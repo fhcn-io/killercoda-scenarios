@@ -8,6 +8,11 @@
       "description": "Learn the basics of Kubernetes"
     },
     {
+      "path": "02-pods",
+      "title": "Work with Pods",
+      "description": "Learn about Kubernetes Pods"
+    },
+    {
       "path": "scenario-02",
       "title": "Node Maintenance",
       "description": "Backup etcd and maage nodes"
