@@ -1,0 +1,37 @@
+{
+    "title": "Deploy an Application",
+    "description": "One of the most basic tasks that you will need to perform is to deploy an application. In this lab, you will deploy a simple web application to your cluster.",
+    "details": {
+      "intro": {
+        "title": "Introduction",
+        "text": "README.md"
+      },
+      "steps": [
+        {
+          "title": "kubectl",
+          "text": "steps/01-kubectl/README.md",
+          "background": "steps/01-kubectl/background.sh",
+          "verify": "steps/01-kubectl/verify.sh"
+        },
+        {
+          "title": "Kubernetes Objects",
+          "text": "steps/02-objects/README.md",
+          "background": "steps/02-objects/background.sh",
+          "verify": "steps/02-objects/verify.sh"
+        },
+        {
+          "title": "Kubernetes Architecture",
+          "text": "steps/03-architecture/README.md",
+          "background": "steps/03-architecture/background.sh",
+          "verify": "steps/03-architecture/verify.sh"
+        }
+      ],
+      "finish": {
+        "title": "Finish",
+        "text": "FINISH.md"
+      }
+    },
+    "backend": {
+      "imageid": "kubernetes-kubeadm-1node"
+    }
+}

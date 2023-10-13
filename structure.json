@@ -3,9 +3,9 @@
   "description": "Thi is a set of scenarios to help you prepare for the CKA exam.",
   "items": [
     {
-      "path": "scenario-01",
-      "title": "Work with Deployments",
-      "description": "Deploy an application with Kubernetes"
+      "path": "01-basics",
+      "title": "Kubernetes Basics",
+      "description": "Learn the basics of Kubernetes"
     },
     {
       "path": "scenario-02",
